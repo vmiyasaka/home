@@ -1,0 +1,26 @@
+html {
+	margin: 0;
+	padding: 0;
+
+	font: normal 100%/1.4 Georgis,serif;
+}
+.current {
+background-color: #000531;
+color: #fff;
+
+}
+
+.nav{
+margin: 0;
+padding: 0;
+font-size: 1.25rem;
+
+list-style-type: none;
+}
+
+.nav li {
+	display:inline;
+}
+
+
+}
