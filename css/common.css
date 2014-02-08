@@ -2,12 +2,18 @@ html {
 	margin: 0;
 	padding: 0;
 
-	font: normal 100%/1.4 Georgis,serif;
+	font: normal 100%/1.4 Georgia,serif;
 }
 .current {
 background-color: #000531;
 color: #fff;
 
+}
+.masthead {
+	padding: 1em;
+	background:#fff url("../img/header.gif") no-repeat center center;
+	background-size: cover;
+	color:#fff;
 }
 
 .nav{
