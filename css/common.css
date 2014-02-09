@@ -1,32 +1,57 @@
 html {
-	margin: 0;
+	margin: -10px;
 	padding: 0;
 
-	font: normal 100%/1.4 Georgia,serif;
+	font: normal 100%/1.4 Plantagenet Cherokee,serif;
 }
+
+a {
+	text-decoration: none;
+}
+}
+
+a:link, a:visited {
+		color:#FFF;
+		}
+		
+		a:hover, a:active {
+			color:#FFF;
+		}
+
 .current {
-background-color: #000531;
+background-color: #fff;
 color: #fff;
 
 }
 .masthead {
 	padding: 1em;
-	background:#fff url("../img/header.gif") no-repeat center center;
-	background-size: cover;
+	background:#fff url("../img/nav.gif") no-repeat center center;
 	color:#fff;
+	background-size: cover;
+	height: 80px;
 }
 
-.nav{
-margin: 0;
-padding: 0;
+.nav {
+margin: 30px 0px 0px 0px;
+padding:  0;
+left: 50%;
 font-size: 1.25rem;
+float:left;
 
-list-style-type: none;
+
 }
 
 .nav li {
 	display:inline;
+	margin: 0 6px ;
+	padding: 0px 8px 9px 0px;
+	float" left;
+	position: relative;
+	color:#fff;
+	right: -130%;
+	
 }
 
 
-}
+
+
