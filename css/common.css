@@ -24,9 +24,11 @@ a:link, a:visited {
 
 .current {
 background-color: #fff;
-
+color:#fff;
 }
+
 .masthead {
+	position:fixed;
 	padding: 1em;
 	width: 100%;
 	background:#fff url("../img/nav.gif") no-repeat center center;
@@ -35,13 +37,14 @@ background-color: #fff;
 }
 
 .nav {
+	position:fixed;
 margin: 30px 0px 0px 0px;
 padding: 0;
 left: 45%;
 width: 100%;
 height:50px;
 font-size: 1.25rem;
-position:fixed;
+
 }
 
 a { color:#D0D0D0;}
@@ -54,29 +57,3 @@ nav li a {
   padding: 0px 15px 9px 0px;
   margin: 5px; 
 }
-
-.content {
-  padding: 0px;
-}
- 
-ul.entries li {
-  position: relative;
-  margin: 20px auto;
-  padding: 20px;
-  background: #ececec;
-  width: 600px;
-}
- 
-ul.entries img {
-  width: 600px;
-}
- 
-ul.entries li h3 {
-  position: absolute;
-  bottom: -18px;
-  left: 17px;
-  font-size: 2em;
-}
-
-
-
