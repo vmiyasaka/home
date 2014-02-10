@@ -11,4 +11,3 @@ Stanley Park also has tourist attractions including intricately carved First Nat
 
 Other parks included in the magazine’s top 20 were the Park Güell in Barcelona, which ranked first place for its stunning mosaics and sculptures by architect Antoni Gaudi. The Keukenhof park in Lisse, Netherlands, also ranked high on the list, with its seven million tulips in full bloom during springtime. 
 
-Source: Vancouver Observer

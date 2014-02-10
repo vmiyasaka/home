@@ -1,13 +1,35 @@
 <!DOCTYPE html> 
+
 <html lang="en">
 <head> 
 	<meta charset="uft-8">
 	<title> Vanessa Miyasaka </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 
-<header>
-	<nav>
-		<ul>
+
+<body>
+
+	<div class = "navbar navbar-inverse navbar-fixed-top">
+		<div class = "navbar-inner">
+		<div class = "container">
+
+
+		<a href = "{{site.baseurl}}/index.html" class = "navbar-brand"> Vanessa Miyasaka </a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				VM
+
+			</button>
+
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+
+				<ul class = "nav navbar-nav navbar-right">
+
 			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
 			<li><a href="{{site.baseurl}}/bibliografia.html">Bibliografia</a></li>
 			<li><a href="{{site.baseurl}}/materias.html">Matérias</a></li>
@@ -15,12 +37,36 @@
 			<li><a href="{{site.baseurl}}/videos.html">Vídeos</a></li>
 			<li><a href="{{site.baseurl}}/contato.html">Contato</a></li>
 			</ul>
-	</nav>
-</header>
+
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "navbar navbar-default navbar-fixed-bottom"> 
+
+		<div class = "container">
+
+			<p class = "navbar-text pull-left"> Follow me </p>
+			<a href = "https://www.facebook.com/vanessa.miyasaka?ref=tn_tnmn" class = "navbar-btn btn-primary btn pull-right"><i class="fa fa-facebook-square"></i>  Facebook </a>
+			
+			<i class="fa fa-twitter-square"></i> 
+			<i class="fa fa-youtube"></i> 
+			<i class="fa fa-envelope"></i> 
+
+		</div>
+
+</div>
+
+<script src = "http://ajax.googleapis.com/ajax/libs/jquery-1.10.2.min.js"></script>
+<script src = "js/bootstrap.js"></script>
 
 
-<body>
-	{{content}}
 
-	</body>
+</body>
+	<footer>
+
+	</footer>
+
+	
 </html>
