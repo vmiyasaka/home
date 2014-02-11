@@ -9,13 +9,13 @@
 	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-</head>
+
 
 
 <body>
 
-	<div class = "navbar navbar-inverse navbar-fixed-top">
-		<div class = "navbar-inner">
+	<div class = "navbar navbar-inverse navbar-static-top">
+		
 		<div class = "container">
 
 <nav class="navbar">
@@ -25,17 +25,17 @@
 		</a>
 	</nav>
 
-		<button type = "button" class="navbar-toggle" data-toggle = "collapse" data-target = ".nav-collapse">
-				VM
+		<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class ="icon-bar"></span>
+				<span class ="icon-bar"></span>
+				<span class ="icon-bar"></span>
 			</button>
-
 
 			<div class = "collapse navbar-collapse navHeaderCollapse">
 
 				<ul class = "nav navbar-nav navbar-right">
 
 			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/bibliografia.html">Bibliografia</a></li>
 			<li><a href="{{site.baseurl}}/materias.html">Matérias</a></li>
 			<li><a href="{{site.baseurl}}/fotos.html">Fotos</a></li>
 			<li><a href="{{site.baseurl}}/videos.html">Vídeos</a></li>
@@ -47,7 +47,19 @@
 		</div>
 	</div>
 
+	<div class = "container">
 
+	<div class = "jumbotron">
+
+		<center><h2> Vanessa Miyasaka </h2></center>
+
+		{{content}}
+
+	</div> 
+
+
+
+</div>
 
 	<div class = "navbar navbar-default navbar-fixed-bottom"> 
 
