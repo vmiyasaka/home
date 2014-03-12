@@ -1,8 +1,15 @@
+#container { 
+	width: 80%; margin: 0 auto 0 auto; 
+}
+
 .body {
 	margin-bottom:80px;
 }
 
-li a {font-size:18px;}
+.navbar {
+
+	font-size:18px;
+}
 
 a {
 	text-decoration:none;
@@ -13,3 +20,32 @@ a {
 	margin: 2px 4px 2px 2px;
 }
 
+.navbar-brand a
+{
+	font-family: Merriweather;
+	font-size: 50px;
+	
+}
+
+.navbar-brand {
+	margin-top: 30px;
+}
+
+#logo h1{
+	font-size: 80px;
+}
+
+#contacts {
+	float: left;
+}
+
+#sidebar {
+	float: right;
+	width:230px;
+	padding:10px;
+}
+
+#list-group-item {
+	background-color: lighten(#000, 20%);
+
+}
