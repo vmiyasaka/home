@@ -39,13 +39,5 @@ a {
 	float: left;
 }
 
-#sidebar {
-	float: right;
-	width:230px;
-	padding:10px;
-}
-
-#list-group-item {
-	background-color: lighten(#000, 20%);
 
 }
