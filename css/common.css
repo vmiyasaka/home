@@ -37,7 +37,16 @@ a {
 
 #contacts {
 	float: left;
+	margin-left: -200px;
+}
+
+#main {
+	float: right;
+width: 250px; float: right; height: 200px;
+
+}
+.footer {
+	margin-top: 20px;
 }
 
 
-}
