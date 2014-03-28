@@ -43,10 +43,18 @@ a {
 #main {
 	float: right;
 width: 250px; float: right; height: 200px;
+}
 
+#list-group {
+
+	background-color: #000;
 }
-.footer {
-	margin-top: 20px;
-}
+
+@media (max-width: 768px) {
+  #main {
+    clear: both;
+  }
+  }
+
 
 
